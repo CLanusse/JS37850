@@ -244,7 +244,7 @@ const filtrarPorPrecio = (filtro) => {
     return busqueda
 }
 
-console.log( filtrarPorPrecio(2000) )
+console.log( filtrarPorPrecio(4000) )
 
 
 let total = 0
