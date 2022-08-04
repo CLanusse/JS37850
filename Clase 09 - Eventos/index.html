@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clase 9 - Eventos</title>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <main class="container my-5">
+
+        <h1 id="titulo">Clase 9 - Eventos</h1>
+        <hr>
+
+
+        <button id="btn1" class="btn btn-primary">CLICK ME</button>
+
+        <button id="btn2" class="btn btn-success">CLICK ME</button>
+
+        <button id="btn3" class="btn btn-warning">CLICK ME</button>
+
+        <button id="btn4" class="btn btn-info" onclick="saludar()">CLICK ME</button>
+
+        <hr>
+
+        <button id="modal-open" class="btn btn-primary">Abrir modal</button>
+
+        <div id="modal-container" class="modal-container">
+            <div id="modal" class="my-modal">
+                <h2>Mi modal</h2>
+                <hr>
+                <button id="modal-close" class="btn btn-success">Cerrar modal</button>
+            </div>
+        </div>
+
+
+        <hr>
+        <h3>FORM</h3>
+
+        <form id="formulario">
+            <input class="form-control my-2" id="input-nombre" type="text" placeholder="Nombre">
+            <input class="form-control my-2" id="input-apellido" type="text" placeholder="Apellido">
+            <input class="form-control my-2" id="input-direccion" type="text" placeholder="Dirección">
+
+            <button class="btn btn-primary" type="submit" id="btn-submit">Submit</button>
+        </form>
+
+        <hr>
+        <h3>USUARIOS</h3>
+        <ul id="usuarios">
+
+        </ul>
+    </main>
+
+</body>
+</html>
