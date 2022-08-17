@@ -60,13 +60,17 @@ const inputNombre = document.querySelector('#input-nombre')
 const inputRol = document.querySelector('#input-rol')
 const btnGuardar = document.querySelector('#btn-guardar')
 
-let usuarios = []
+// let usuarios = []
 
-const usuariosEnLS = JSON.parse( localStorage.getItem('usuarios') )
+// const usuariosEnLS = JSON.parse( localStorage.getItem('usuarios') )
 
-if (usuariosEnLS) {
-    usuarios = usuariosEnLS
-}
+// if (usuariosEnLS) {
+//     usuarios = usuariosEnLS
+// }
+
+const usuarios = JSON.parse( localStorage.getItem('usuarios') ) || []
+
+
 // console.log(usuariosEnLS)
 
 const guardarUsuario = () => {
