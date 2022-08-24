@@ -1,3 +1,7 @@
+// setTimeout(() => {
+//     console.log("Inicio del programa")
+// }, 0)
+
 
 const btn = document.querySelector('#btn')
 const btnToast = document.querySelector('#btn-toast')
